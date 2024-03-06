@@ -8,6 +8,7 @@ let allTasks = [];
 //Variable que almacenara los estados de los checkbox
 let checkedS = [];
 
+/* Predifined and constant tasks
 //Lista de tareas "hardcoded"
 let defaultList=[
     {
@@ -28,12 +29,14 @@ let defaultList=[
 for(let i=0;i<defaultList.length;i++){
     addDefaultTask(defaultList[i].name, defaultList[i].isDone);
 }
+*/
 
 //Lo inicializamos para obtener las palabras guardadas en la memoria
 defaultTasks();
 
 //Iniciamos el array con las tareas ya existentes
 getTasks();
+
 
 //Se añade un evento al input el cual detecta cuando el usuario presiona "enter"
 INPUT.addEventListener("keyup", function(event) {
