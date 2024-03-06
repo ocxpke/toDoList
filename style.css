@@ -1,0 +1,127 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    text-align: center;
+    
+}
+
+body{
+    background: ghostwhite;
+	font-family: Bradley Hand, cursive;
+	font-size: 16px;
+    margin-left: 30em;
+    margin-right: 30em;
+}
+
+#title{
+    font-size: 3em;
+}
+
+#subtitle{
+    font-size: 2em;
+}
+
+#head{
+    text-decoration: underline double gray;
+    font-size: 2em;
+    margin-top: 0.01em;
+    text-align: center;
+}
+
+#all-content{
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#cabecera{
+    margin-top: 10px;
+    border: black 2px solid;
+    border-radius: 1em;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#body{
+    margin-top: 10px;
+    border: black 2px solid;
+    border-radius: 1em;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#input-btn{
+    margin-top: 0.5em;
+}
+
+input{
+    color: #212121;
+	text-align: center;
+	padding: 0.35em;
+	width: 75%;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+}
+
+#addTask{
+    margin-top: 1em;
+}
+
+.button{
+    background: gray;
+	border: 1px solid #212121;
+	color: #fff;
+	display: inline-block;
+	font-size: 1em;
+	padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+}
+
+#list-task{
+    list-style: none;
+}
+
+#list-task ol{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#list-task ol input{
+    width: 5%;
+}
+
+#list-task ol a{
+    color: #212121;
+	padding: 20px 0;
+	text-decoration: none;
+    margin-right: 15%;
+}
+
+#list-task ol a:hover{
+    color: red;
+}
+
+#save-all{
+    background-color:green;
+}
+
+#remove-all{
+    background-color: crimson;
+}
+
+#clean-memory{
+    background-color: goldenrod;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+p {
+    width: 2px;
+}

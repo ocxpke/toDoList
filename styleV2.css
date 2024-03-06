@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+
+body{
+    margin: 0.5%;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 250px;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 75%;
+    background: linear-gradient(90deg, #1a1717 0%, #275fa6 100%);
+}
+
+header{
+    background-color: aliceblue;
+    min-width: 175px;
+    border: cornflowerblue 2px solid;
+    border-radius: 5px;
+    margin: 0.5%;
+}
+
+#title{
+    color: deepskyblue;
+    font-size: 300%;
+}
+
+#subtitle{
+
+    font-size: 200%;
+}
+
+section{
+    padding: 1%;
+    background-color: aliceblue;
+    font-size: 150%;
+    min-width: 175px;
+    border: cornflowerblue 2px solid;
+    border-radius: 5px;
+    margin: 0.5%;
+}
+
+form{
+    float: left;
+    width: 70%;
+    min-width: 150px;
+    min-height: 60px;
+    margin-left: 1%;
+}
+
+input[type=text]{
+    color: #212121;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+}
+
+#input{
+    width: 90%;
+    min-width: 40%;
+}
+
+.button{
+    background: limegreen;
+	border: 1px solid #212121;
+	color: #fff;
+	font-size: 75%;
+	padding: 1em;
+    border-radius: 1em;
+    margin-left: 5px;
+}
+
+#addTask{
+    margin-top: 0.2%;
+    min-width: 70px;
+    min-height: 25px;
+}
+
+#head{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: inline-table;
+    text-decoration: underline double;
+}
+
+#list-head{
+    max-width: 100%;
+}
+
+ol{
+    margin-bottom: 1%;
+    max-width: 1000px;
+    margin-left: 20%;
+    margin-right:20% ;
+}
+
+ul{
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-top: 1%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 900px;
+    margin-bottom: 1%;
+    min-width: 156px;
+}
+
+#tasks{ 
+    min-height: 50px;
+    height: 30%;
+
+}
+
+input[type=checkbox]{
+    margin-left: 10%;
+    margin-right: 2%;
+    size: 50%;
+}
+
+.dlt{
+    border-radius: 2px;
+    text-align: center;
+    color: #000;
+}
+
+#save-all{
+    background-color:deepskyblue;
+    margin-bottom: 0.5%;
+}
+
+#remove-all{
+    background-color: crimson;
+    margin-bottom: 0.5%;
+}
+
+#clean-memory{
+    background-color: dodgerblue;
+    margin-bottom: 0.5%;
+}
+
+.done{
+    text-decoration: line-through;
+    color: darkgrey;
+}
+
+p{
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 1%;
+    min-width: 40px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: red;
+}
+
+#btns{
+    display: inline-flex;
+}

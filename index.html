@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Cabecera de la pagina-->
+<head>
+    <title>ToDoList</title>
+    <link rel="icon" href="icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleV2.css">
+    <script src="main.js" defer></script>
+</head>
+<!--Cuerpo de la pagina-->
+<body>
+    <div id="all-content">
+        <!--Titulo de la pagina-->
+        <header>
+            <h1 id="title"><i>To Do List</i></h1>  
+            <h4 id="subtitle">Done by: Jose Ramirez Giron</h4> 
+        </header>
+        
+        <section>
+            <!--Seccion de la pagina donde introduciremos las tareas-->
+            <div id="tasks">
+                <form>
+                    <input type="text" id="input" placeholder="What plans you have for today?..." maxlength="20">
+                </form>
+                <button class="button" onclick="addTask()" id="addTask">Add Task</button>  
+            </div>
+
+            <!--Cabecera para las listas-->
+            <div id="list-head">
+                <h2 id="head"><i>Tasks to be done</i></h2>
+            </div>
+
+            <!--Seccion de la pagina que tendra las tareas-->
+            <div>
+                <ul id="list-task" class="list"></ul>
+            </div>
+        
+            <!--Opciones de las que dispondra el usuario-->
+            <div id="btns">
+                <button id="save-all" class="button" onclick="saveAll()">Save all</button>
+                <button id="clean-memory" class="button" onclick="cleanMem()">Clean memory</button>
+                <button id="remove-all" class="button" onclick="deleteAllTasks()">Remove all</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
