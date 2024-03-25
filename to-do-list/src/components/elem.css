@@ -1,0 +1,17 @@
+.up{
+    color:chartreuse;
+    font-size:  25px;
+    margin-left: 5px;
+}
+
+.down{
+    color: gold;
+    font-size:  25px;
+    margin-left: 5px;
+}
+
+.bin{
+    color: red;
+    font-size:  25px;
+    margin-left: 5px;
+}
